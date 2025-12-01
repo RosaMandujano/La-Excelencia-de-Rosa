@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Excelencia de Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>La Excelencia de Rosa</h1>
+            <p>Sabores caseros, excelencia mexicana.</p>
+            <a href="#menu" class="btn">View This Weekend’s Menu</a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>
+            En <strong>La Excelencia de Rosa</strong> ofrecemos auténtica comida mexicana 
+            los fines de semana. Cada plato es preparado con recetas familiares, ingredientes frescos 
+            y el toque especial de la cocina casera.
+        </p>
+    </section>
+
+    <!-- WEEKLY MENU SECTION -->
+    <section class="menu" id="menu">
+        <h2>Menú de Este Fin de Semana</h2>
+        <p class="note">(El menú cambia cada semana)</p>
+
+        <!-- UPDATE MENU HERE EACH WEEK -->
+        <div class="menu-box">
+            <h3>Platillos Disponibles</h3>
+            <ul>
+                <li>Tacos de Birria</li>
+                <li>Tamales Rojos y Verdes</li>
+                <li>Quesabirrias</li>
+                <li>Aguas Frescas de Horchata y Jamaica</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ORDER INFO -->
+    <section class="order" id="order">
+        <h2>Ordena con Nosotros</h2>
+        <p>Realiza tu pedido por mensaje o llamada:</p>
+        <ul>
+            <li><strong>WhatsApp:</strong> (your number)</li>
+            <li><strong>Phone:</strong> (your number)</li>
+        </ul>
+        <p>*Pickup disponible los fines de semana*</p>
+    </section>
+
+    <!-- CONTACT -->
+    <footer class="footer">
+        <p>© 2025 La Excelencia de Rosa — Auténtica comida mexicana</p>
+    </footer>
+</body>
+</html>
